@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorService", "CalculatorService\CalculatorService.csproj", "{A2A53AB9-BFBC-4024-8612-6944E4481175}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostCalculatorSerice", "HostCalculatorSerice\HostCalculatorSerice.csproj", "{8453C6F4-6355-4FE7-AE0C-0E0A8B072EC8}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCClient", "MVCClient\MVCClient.csproj", "{01C99A1C-0D54-4B64-AF9C-6F151C359DEC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcService", "CalcService\CalcService.csproj", "{4D46FE32-4118-486C-8228-C931CADBCB63}"
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A2A53AB9-BFBC-4024-8612-6944E4481175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A2A53AB9-BFBC-4024-8612-6944E4481175}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A2A53AB9-BFBC-4024-8612-6944E4481175}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A2A53AB9-BFBC-4024-8612-6944E4481175}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8453C6F4-6355-4FE7-AE0C-0E0A8B072EC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8453C6F4-6355-4FE7-AE0C-0E0A8B072EC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8453C6F4-6355-4FE7-AE0C-0E0A8B072EC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8453C6F4-6355-4FE7-AE0C-0E0A8B072EC8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{01C99A1C-0D54-4B64-AF9C-6F151C359DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{01C99A1C-0D54-4B64-AF9C-6F151C359DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01C99A1C-0D54-4B64-AF9C-6F151C359DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
