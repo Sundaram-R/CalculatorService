@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model MVCClient.Models.InputModel
+
+
+
+<div class="row">
+  @using(Html.BeginForm("SubmitOperation","Home",FormMethod.Post)){
+      @Html.TextBoxFor(model=>model.value1)
+     @Html.TextBoxFor(model => model.value2)
+      <input type="submit" value="Addition" name="Addition"/>
+    <input type="submit" value="Substraction" name="Substraction" />
+  }
+    @Html.LabelFor(model=>model.result)
+    @Html.ValueFor(model=>model.result)
+</div>
